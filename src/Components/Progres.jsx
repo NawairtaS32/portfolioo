@@ -10,11 +10,11 @@ export default function Progress({ data }) {
             <div
                 className={`h-auto rounded-xl lg:rounded-full 
                 ${
-                    item.value >= 79
-                    ? 'bg-green-500'
-                    : item.value >= 68
-                    ? 'bg-yellow-600'
-                    : 'bg-red-500'
+                    item.value >= 75
+                    ? 'bg-blue-600'
+                    : item.value >= 65
+                    ? 'bg-cyan-600'
+                    : 'bg-pink-600'
                 }`}
               style={{ width: `${item.value}%` }}
             >

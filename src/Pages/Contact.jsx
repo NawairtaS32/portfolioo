@@ -35,16 +35,16 @@ export default function Contact() {
                                 +62-859-6395-5448
                             </p>
                         </a>
-                        <a href='mailto:snawairtas@gmail.com' className="">
+                        <a href='mailto:igustimade98@gmail.com' className="">
                             <SiMinutemailer className="text-[50px] lg:text-[60px] w-full text-red-400 " />
                             <p className="text-2xl py-2 lg:text-[32px]">
                                 Mail Me
                             </p>
                             <p className="text-xl lg:text-[28px]">
-                                snawairtas@gmail.com
+                                igustimade98@gmail.com
                             </p>
                         </a>
-                        <div className="">
+                        <div className="lg:ml-10 ">
                             <RiChatFollowUpFill className="text-[50px] lg:text-[60px] w-full text-orange-400 " />
                             <p className="text-2xl py-2 lg:text-[32px]">
                                 Follow Me
