@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from 'react-scroll';
 import hero from "../assets/images/profil.png";
 
-const Hero = () => {
 
+export default function Hero() {
   return (
     <section
       id="home"
@@ -50,6 +50,4 @@ const Hero = () => {
       </div>
     </section>
   );
-};
-
-export default Hero;
+}
